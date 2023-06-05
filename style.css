@@ -1,0 +1,42 @@
+body
+{
+     background-size: cover;
+}
+
+h1
+{
+ color: lime;
+ background-color: rgb(0, 132, 255);
+ margin-top: 0px;
+}
+
+ #show_sketch
+ {
+    float: right;
+ }
+
+canvas
+{
+    border: 5px solid peachpuff;
+    border-radius: 20px;
+    animation-name: example ;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example
+{
+    from{box-shadow: 5px 8px 25px palegreen;}
+    to{box-shadow: 5px 8px 25px turquoise;}
+
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 30px;
+    background-color: grey;
+    color: ghostwhite;
+}
